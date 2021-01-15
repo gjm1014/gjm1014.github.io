@@ -1,0 +1,71 @@
+html{
+  height: 100%;
+
+}
+.row{
+  height: 100%;
+  padding: 0px 1em 0px 1em;
+}
+body {
+  background-image:url('static/1.png');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+.container-fluid{
+  max-width: 1400px;
+  max-height: 1000px;
+  background-color: rgba(255,255,255,0);
+}
+.content{
+  background-color: #E2E2E2;
+  height: 100%;
+  background-color: rgba(255,255,255,0);
+
+}
+.txt{
+  background-color: #E2E2E2;
+  height: 100%;
+}
+.sidenote{
+  background-color: #247BA0;
+
+}
+.footer{
+  background-color: #0A2463;
+  color:#E2E2E2;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+nav{
+  background-color:#0A2463;
+}
+video{
+  width:100%;
+  padding: 15px 0 10px 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2195f300;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.vertical-center {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
