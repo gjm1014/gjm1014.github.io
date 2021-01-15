@@ -1,40 +1,37 @@
-html{
+html {
   height: 100%;
-
 }
-.row{
+.row {
   height: 100%;
   padding: 0px 1em 0px 1em;
 }
 body {
-  background-image:url('static/1.png');
-  background-repeat:no-repeat;
+  background-image: url('static/1.png');
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
 }
-.container-fluid{
+.container-fluid {
   max-width: 1400px;
   max-height: 1000px;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
 }
-.content{
-  background-color: #E2E2E2;
+.content {
+  background-color: #e2e2e2;
   height: 100%;
-  background-color: rgba(255,255,255,0);
-
+  background-color: rgba(255, 255, 255, 0);
 }
-.txt{
-  background-color: #E2E2E2;
+.txt {
+  background-color: #e2e2e2;
   height: 100%;
 }
-.sidenote{
-  background-color: #247BA0;
-
+.sidenote {
+  background-color: #247ba0;
 }
-.footer{
-  background-color: #0A2463;
-  color:#E2E2E2;
+.footer {
+  background-color: #0a2463;
+  color: #e2e2e2;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -42,11 +39,11 @@ body {
   color: white;
   text-align: center;
 }
-nav{
-  background-color:#0A2463;
+nav {
+  background-color: #0a2463;
 }
-video{
-  width:100%;
+video {
+  width: 100%;
   padding: 15px 0 10px 0;
 }
 .grid-container {
@@ -61,11 +58,13 @@ video{
   font-size: 30px;
   text-align: center;
 }
-.vertical-center {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+@media (min-width: 1200px) {
+  .vertical-center {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
